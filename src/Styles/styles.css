@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+h1{
+    margin-bottom: 8px;
+    font-size: 27px;
+}
+p{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+a{
+    color: rgb(52, 190, 52);
+    text-decoration: none;
+}
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 50, 10);
+    color: white;
+    padding: 0px 80px;
+  }
+  
+.header a {
+    color: grey;
+    text-decoration: underline grey;
+  }
+.blog-container{
+    background-color: rgb(6, 86, 6);
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+.blog-container h1{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.blog-container p{
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.navbar{
+    background-color: rgb(35, 125, 58);
+    align-items: center;
+    padding: 2px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    margin-left: 75px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.content-container{
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-content{
+    padding: 20px 0;
+    margin-left: 78px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    max-width: 900px;
+    text-align: justify;
+    line-height: 1.2;
+}
+.inside-content{
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0px 5px;
+    border-left: 3px solid rgb(141, 216, 141);
+}
+.ulist{
+    margin-left: 50px;
+}
+ol{
+    margin-left: 45px;
+}
+.footer{
+    font-size: 12px;
+    background-color: rgb(10, 50, 10);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links{
+    padding: 10px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer2{
+    margin-left: 70px;
+}
+.footer2 ul{
+    list-style: none;
+}
+.footer1 ul{
+    list-style: none;
+}
+.right-footer{
+    margin-right: 50px;
+}
+.sidebar{
+    background-color: rgba(156, 156, 107, 0.596);
+    padding: 20px 40px;
+    height: 330px;
+}
+.categories{
+    margin-left: -15px;
+}
+.categories ul{
+    list-style: none;
+    margin-left: 15px;
+}
