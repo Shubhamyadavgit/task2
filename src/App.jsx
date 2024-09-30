@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import MainContent from './components/MainContent';
 import Sidebar from './components/Sidebar';
-import Footer from './Components/Footer';
+import Footer from './components/Footer';
 import './Styles/styles.css';
 
 const App = () => {
